@@ -1,14 +1,156 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
 header{
-    background-color: #ADD8E6;
-    padding: 10px 10%;
+    background-color: rgb(170, 211, 224);
+    padding: 15px 15%;
 }
 
-.container{
+header div{
+    background-color: rgb(255, 166, 0);
+    border-style: dashed;
+    display: inline-block;
+    line-height: 30px;
+}
+
+.flex-container{
     display: flex;
+    justify-content: center;
+}
+
+.links{
+    text-align: center;
+    flex-basis: 800px;
+}
+
+.logo{
+    flex-grow: 1;
+    padding-left: 10px;
+}
+
+.login{
+    text-align: right;
+    flex-grow: 1;
+    padding-right: 10px;
+}
+
+.top{
+    background-color: blue;
+}
+
+.top div{
+    width: 50%;
+    height: 300px;
+    background-color: rgb(255, 100, 242);
+    margin: 50px;
+    border-style: dashed;
+}
+
+.mid1, .mid3{
+    padding: 50px;
+}
+
+.mid1 div, .mid3 div{
+    height: 500px;
+    border-style: dashed;
+}
+
+.mid1 .sx, .mid3 .sx{
+    flex-basis: 600px;
+    background-color: rgb(30, 144, 255);
+}
+
+.mid1 .dx, .mid3 .dx{
+    flex-basis: 400px;
+    background-color: pink;
+}
+
+.mid2{
+    padding: 50px;
+    background-color: rgb(170, 170, 170);
+}
+
+.mid2 div{
+    height: 500px;
+    border-style: dashed;
+}
+
+.mid2 .sx{
+    flex-basis: 400px;
+    background-color: pink;
+}
+
+.mid2 .dx{
+    flex-basis: 600px;
+    background-color: rgb(30, 144, 255);
+}
+
+.bot{
+    background-color: rgb(170, 170, 170);
+    padding: 50px;
+}
+
+.bot div{
+    background-color: green;
+    border-style: dashed;
+    flex-basis: 1000px;
+    height: 800px;
+}
+
+footer{
+    background-color: rgb(30, 30, 30);
+}
+
+.foot{
+    padding: 50px;
+    border-bottom: 1px solid grey;
+}
+
+.foot > div{
+    height: 500px;
+    border-style: dashed;
+}
+
+.foot .sx{
+    background-color: rgb(240, 128, 128);
+    flex-basis: 400px;
+}
+
+.foot .dx{
+    flex-basis: 600px;
+}
+
+.col{
+    background-color: rgb(32, 178, 170);
+    flex-grow: 1;
+    border-style: dashed;
+    border-color: white;
+}
+
+.buttons{
+    background-color: rgb(127, 255, 212);
+    margin: 50px auto;
+    margin-bottom: 0;
+    width: 1000px;
+    justify-content: space-between;
+}
+
+button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+.buttons > *{
+    background-color: rgb(255, 182, 193);
+    padding: 10px;
+    border-style: dashed;
+    margin: 15px 0;
 }
