@@ -16,6 +16,13 @@ header div{
     line-height: 30px;
 }
 
+ul{
+    list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+
 .flex-container{
     display: flex;
     justify-content: center;
