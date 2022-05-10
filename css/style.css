@@ -133,7 +133,7 @@ footer{
     flex-basis: 600px;
 }
 
-.blue{
+.column{
     background-color: rgb(32, 178, 170);
     flex-grow: 1;
     border-style: dashed;
